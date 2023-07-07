@@ -1,10 +1,3 @@
-#page1,
-#page2,
-#page3,
-#page4 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 h1 {
   text-align: center;
 }
@@ -27,6 +20,44 @@ those areas */
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.description {
+  border: 2px solid black;
+  margin: 15px;
+  padding: 0px 35px;
+}
+
+p,
+.directions li {
+  line-height: 1.4;
+}
+
+.description h2 {
+  margin: 5px 0px;
+  text-align: center;
+  padding: 0px;
+}
+
+.ingredients {
+  border: 2px solid black;
+  margin: 15px;
+  padding: 0px 20px;
+}
+
+.directions {
+  border: 2px solid black;
+  margin: 15px;
+  padding: 0px 20px;
+}
+
+.ingredients li {
+  margin-bottom: 10px;
+}
+
+.directions li {
+  margin-bottom: 15px;
 }
 
 /********************************page 1 styles********************************/
@@ -71,17 +102,6 @@ body {
 
 #page2 {
   background-color: lightcyan;
-}
-
-#page2 .description {
-  border: 2px solid black;
-  margin: 15px;
-  padding: 0px 20px;
-}
-
-#page2 .description h2 {
-  margin: 5px 0px;
-  padding: 0px;
 }
 
 #page3 {
